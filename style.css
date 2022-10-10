@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+
+}
+
+.logo{
+    width:150px;
+    height: 100px;
+    margin: 10px;
+}
+
+nav{
+    background-color: #785B70;
+    width: auto;
+}
+
+nav a {
+    color: black;
+    position: relative;
+    bottom: 35px;
+    padding: 15px;
+    font-size: 25px;
+    background-color: #B4F200;
+    margin: 20px;
+    border-radius: 30%;
+}
+
+nav a:hover {
+    background-color: brown;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color:#785B70 ;
+}
+
+.opys {
+  width: auto;
+  margin: 5px;
+}
+
+.p1 {
+   text-align: left;
+   font-size: 25px;
+   background-color: #B4F200;
+   padding: 20px;
+    width: 500px;
+   
+}
+
+.image1{
+    width: 350px;
+    height: 210px;
+    position: absolute;
+    left: 600px;
+    top: 230px;
+    box-shadow: 5px 5px 2px 2px black;
+  
+}
+
+nav a::before {
+    opacity: 0.5;
+    width: 30px;
+    padding: 5px;
+    content: url(/uploads/2021/03/paw-155322_1280%201_0_1614946877.png);
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color:#785B70 ;
+}
+
+.photos {
+  display: flex;
+    border-top: 5px solid #B4F200;
+    border-bottom: 5px solid #B4F200;
+    justify-content: space-between; 
+    width: 700px;
+    margin: 0 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.photo{
+    width: 120px;
+}
+
+.review {
+    
+    width: 250px;
+}
+
+.ph1:hover{
+   box-shadow: 20px 20px 10px 0px black;
+}
+
+.help {
+background-color: #B4F200;
+padding: 5px;
+margin: 20px;
+}
+
+.p2 {
+ font-size: 18px;
+}
+
+.kont {
+text-align: right;
+}
+
+footer {
+background-color:#785B70 ;
+padding: 5px;
+margin: 5px;
+}
+
+footer p {
+background-color:#B4F200 ;
+}
